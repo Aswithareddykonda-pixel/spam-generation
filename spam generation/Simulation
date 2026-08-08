@@ -1,0 +1,17 @@
+Input Message
+      │
+      ▼
+Preprocessing
+      │
+      ▼
+TF-IDF / Embedding
+      │
+      ▼
+Trained Model
+      │
+      ▼
+Spam Probability
+      │
+      ├── > Threshold ──► SPAM
+      │
+      └── < Threshold ──► HAM

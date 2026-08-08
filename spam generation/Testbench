@@ -1,0 +1,13 @@
+| ID   | Input                                | Expected         | Result |
+| ---- | ------------------------------------ | ---------------- | ------ |
+| TC01 | "Congratulations! You won ₹50,000"   | Spam             | PASS   |
+| TC02 | "Your class starts at 9 AM tomorrow" | Ham              | PASS   |
+| TC03 | "Claim your free reward now"         | Spam             | PASS   |
+| TC04 | "Please send me the assignment"      | Ham              | PASS   |
+| TC05 | Empty message                        | Validation error | PASS   |
+Accuracy
+Precision
+Recall
+F1 Score
+False Positive Rate
+False Negative Rate
